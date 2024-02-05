@@ -10,7 +10,7 @@ const ListingCard = ({ listing }) => {
         <img
           src={listing.imageUrls[0]}
           alt="thumbnail"
-          className="h-[320px] sm:h-[220px] w-full object-cover hover:scale-105 transition-scale duration-300"
+          className=" sm:h-[220px] w-full object-cover hover:scale-105 transition-scale duration-300"
         />
 
         <div className="p-3 flex flex-col gap-2">
